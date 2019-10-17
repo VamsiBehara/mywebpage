@@ -3,6 +3,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 	button.addEventListener('click', event => {
  //button.innerHTML = `Click count: ${event.detail}`;
- changecolor("assgnmnt1");
+ changecolor("one");
 });
 });
