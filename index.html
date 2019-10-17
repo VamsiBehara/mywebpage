@@ -5,6 +5,11 @@
  
    .button {
      background-color: #008CBA;}
+     const button = document.querySelector('button');
+
+button.addEventListener('click', event => {
+  button.innerHTML = `Click count: ${event.detail}`;
+});
      
 </style>
    <script src= "JavaScriptVB.js"></script>
