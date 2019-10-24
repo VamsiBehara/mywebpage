@@ -3,10 +3,14 @@
   <body style = "background: url(https://drexel.edu/~/media/Images/identity/athletics/athletics_D1.ashx?la=en) no-repeat">  
    <style> 
  
-   .button {
-     background-color: #008CBA;}
-     const button = document.querySelector('button');
-	   <button id= "one" class="button">click me </button>
+   .window.addEventListener('DOMContentLoaded', (event) => {
+    const button = document.querySelector('button');
+
+	button.addEventListener('click', event => {
+ //button.innerHTML = `Click count: ${event.detail}`;
+ changecolor("assgnmnt1");
+});
+});
 </style>
 
      
