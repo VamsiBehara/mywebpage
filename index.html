@@ -20,6 +20,19 @@ function setColor(btn, color){
 }
 </script>
 	  <script src= "JavaScriptVB.js"></script>
+	  
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("demo").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("POST", "<https://httpbin.org/post >", true);
+  xhttp.send();
+}  
+</script>
 </head>
 
 <body>
